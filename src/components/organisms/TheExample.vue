@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import pkg from '../../../package.json';
 import MoleculesTechStackCard from '../molecules/TechStackCard.vue';
 

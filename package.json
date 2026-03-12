@@ -4,8 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -19,9 +21,15 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "latest",
+    "@tsconfig/node24": "latest",
+    "@types/node": "latest",
     "@vitejs/plugin-vue": "latest",
+    "@vue/tsconfig": "latest",
     "eslint": "latest",
+    "npm-run-all2": "latest",
+    "typescript": "latest",
     "vite": "latest",
-    "vite-plugin-vue-devtools": "latest"
+    "vite-plugin-vue-devtools": "latest",
+    "vue-tsc": "latest"
   }
 }

@@ -1,17 +1,14 @@
-<script setup>
+<script setup lang="ts">
 import { reactive, ref } from 'vue';
 
-const divRef = ref(null);
+const divRef = ref<HTMLDivElement | null>(null);
 const position = reactive({ x: 0, y: 0 });
 const opacity = ref(0);
 
-function handleMouseMove(e) {
+function handleMouseMove(e: MouseEvent) {
   if (!divRef.value)
     return;
-
-  const div = divRef.value;
-  const rect = div.getBoundingClientRect();
-
+  const rect = divRef.value.getBoundingClientRect();
   position.x = e.clientX - rect.left;
   position.y = e.clientY - rect.top;
 }
