@@ -6,6 +6,42 @@ A lightweight Vue starter template built with Vite and Tailwind CSS. Fast develo
 
 ---
 
+## Features
+
+- ⚡ **Vite** - Next generation frontend tooling
+- 🟢 **Vue 3** - The Progressive JavaScript Framework (Composition API)
+- 🍍 **Pinia** - Intuitive, type-safe state management
+- 🔀 **Vue Router** - Official client-side routing
+- 🎨 **Tailwind CSS** - Utility-first CSS framework
+- 📝 **ESLint** - Code quality and consistency
+- 🔥 **HMR** - Fast refresh during development
+
+---
+
+## Project Structure
+
+```text
+├── docs/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── atoms/
+│   │   ├── molecules/
+│   │   └── organisms/
+│   ├── router/
+│   ├── views/
+│   ├── App.vue
+│   ├── index.css
+│   └── main.ts
+├── AGENTS.md
+├── index.html
+├── package.json
+└── vite.config.ts
+```
+
+---
+
 ## Getting Started
 
 ### Requirements
@@ -48,42 +84,6 @@ The development server will start at `http://localhost:5173`
 - `npm run build` - Build for production
 - `npm run preview` - Preview the production build locally
 - `npm run lint` - Run ESLint to check code quality
-
----
-
-## Project Structure
-
-```text
-├── docs/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   │   ├── atoms/
-│   │   ├── molecules/
-│   │   └── organisms/
-│   ├── router/
-│   ├── views/
-│   ├── App.vue
-│   ├── index.css
-│   └── main.ts
-├── AGENTS.md
-├── index.html
-├── package.json
-└── vite.config.ts
-```
-
----
-
-## Features
-
-- ⚡ **Vite** - Next generation frontend tooling
-- 🟢 **Vue 3** - The Progressive JavaScript Framework (Composition API)
-- 🍍 **Pinia** - Intuitive, type-safe state management
-- 🔀 **Vue Router** - Official client-side routing
-- 🎨 **Tailwind CSS** - Utility-first CSS framework
-- 📝 **ESLint** - Code quality and consistency
-- 🔥 **HMR** - Fast refresh during development
 
 ---
 
