@@ -54,7 +54,9 @@ The development server will start at `http://localhost:5173`
 ## Features
 
 - ⚡ **Vite** - Next generation frontend tooling
-- ⚛️ **Vue 3** - Latest React version
+- 🟢 **Vue 3** - The Progressive JavaScript Framework (Composition API)
+- 🍍 **Pinia** - Intuitive, type-safe state management
+- 🔀 **Vue Router** - Official client-side routing
 - 🎨 **Tailwind CSS** - Utility-first CSS framework
 - 📝 **ESLint** - Code quality and consistency
 - 🔥 **HMR** - Fast refresh during development
