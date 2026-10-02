@@ -51,6 +51,30 @@ The development server will start at `http://localhost:5173`
 
 ---
 
+## Project Structure
+
+```text
+├── docs/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── atoms/
+│   │   ├── molecules/
+│   │   └── organisms/
+│   ├── router/
+│   ├── views/
+│   ├── App.vue
+│   ├── index.css
+│   └── main.ts
+├── AGENTS.md
+├── index.html
+├── package.json
+└── vite.config.ts
+```
+
+---
+
 ## Features
 
 - ⚡ **Vite** - Next generation frontend tooling
